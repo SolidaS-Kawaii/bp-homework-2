@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    height: 300px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ff4554;
+}
+
+.card{
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.frame{
+    width: 50%;
+    height: 100%;
+}
+
+.img{
+    width: 275px;
+    height: 399px;
+    border-radius: 9px 0px 0px 9px;
+}
+
+.title{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.title-top{
+    color: #ff4554;
+}
+
+.title-heading{
+    margin: 15px 0px 15px 0px;
+}
+
+.title-detail{
+    color: gray;
+    margin-bottom: 15px;
+
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price-sale{
+    color: #ff4554;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.price-full{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.button{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 15%;
+    background-color: #ff4554;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: bisque;
+    transition: 0.5s;
+}
+
+.cart{
+    background-color: white;
+    width: 15%;
+    height: auto;
+    border-radius: 10px;
+    margin: -10px 10px;
+}
+
+.white{
+    color: white;
+
+}
